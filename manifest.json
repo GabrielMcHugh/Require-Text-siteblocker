@@ -8,6 +8,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+  "web_accessible_resources": ["text-challenge.html"],
   "content_scripts": [
     {
       "matches": [
@@ -16,10 +17,11 @@
       ],
       "css": [
         "css/style.css"
+      ],
+      "js": [
+        "text-challenge-injector.js"
       ]
     }
   ],
-  "web_accessible_resources": [
-    "css/style.css"
-  ]
+  "web_accessible_resources": ["challenge-window.html"]
 }

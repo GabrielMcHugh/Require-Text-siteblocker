@@ -20,6 +20,7 @@ html::before {
   content: '!! Stop !!';
 }
 
-body {
-  display: none !important;
+/*Hide everything except the text-challenge box*/
+html body *:not(iframe) {
+ display:none;
 }
