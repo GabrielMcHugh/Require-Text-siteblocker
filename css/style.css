@@ -16,10 +16,6 @@ html {
   justify-content: center;
 }
 
-html::before {
-  content: '!! Stop !!';
-}
-
 /*Hide everything except the text-challenge box*/
 html body *:not(iframe) {
  display:none;

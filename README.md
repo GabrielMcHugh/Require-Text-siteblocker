@@ -12,3 +12,6 @@ Having this happen every time you open up a new page or switch tabs to that page
 The string isn't untypable and it should be easy enough for the user to do without looking to disable the extensions.
 
 Ultimately the only one who can make a choice to kick a bad habit is the user. This extensions isn't meant to make the website unattainable but marginally more effortful to access and thus over long periods of time making it systematically more undesirable and unrewarding to use.
+
+### Resources
+https://medium.com/@sharonzheng/how-to-create-a-simple-site-blocker-chrome-extension-9628c3a0487b
