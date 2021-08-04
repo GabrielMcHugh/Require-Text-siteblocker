@@ -3,13 +3,16 @@ $(document).ready (jQueryMain);
 var challengeString= '';
 
 function jQueryMain () {
+
+  console.log("this ran")
 	$("#random-string").text(makeChallenge(3))
     $("#challenge-input").on("input", matches);
 }
 
 function matches(e) {
 	if(e.target.value === challengeString) {
-		console.log("neat")
+    let test = $("#facebook").children()
+    console.log(test)
 	}
 }
 

@@ -1,19 +1,16 @@
-* {
-  box-sizing: border-box;
-  color: #fff;
-  font-family: monospace;
-  font-size: 5vw;
-  font-weight: bold;
-  text-align: center;
-}
-
-html {
-  background: radial-gradient(68.34% 50% at 50% 50%, #2D9AFF 0%, #41DEE8 0%, #A22DFF 100%);
+#text-challenge {
+  background: white;
   height: 100vh;
   padding: 50px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
 }
 
 /*Hide everything except the text-challenge box*/

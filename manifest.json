@@ -19,7 +19,7 @@
         "css/style.css"
       ],
       "js": [
-        "text-challenge-injector.js"
+        "text-challenge-injector.js",
       ]
     }
   ],
