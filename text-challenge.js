@@ -4,15 +4,13 @@ var challengeString= '';
 
 function jQueryMain () {
 
-  console.log("this ran")
 	$("#random-string").text(makeChallenge(3))
-    $("#challenge-input").on("input", matches);
+  $("#challenge-input").on("input", matches);
 }
 
 function matches(e) {
 	if(e.target.value === challengeString) {
-    let test = $("#facebook").children()
-    console.log(test)
+    console.log("Do something")
 	}
 }
 
@@ -26,4 +24,8 @@ function makeChallenge(length) {
    return challengeString;
 }
 
-
+//Current problem is that the text-challenge file can't reference the facebook page
+//It only runs the script on the challenge window.
+//To unhide the facebook page I have to communicate to text-challenge-injector
+// I need the challeng to communicate with the extension when there is a 
+//match and communicate to the challenger to unblock

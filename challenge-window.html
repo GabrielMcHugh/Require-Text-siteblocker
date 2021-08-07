@@ -3,12 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Challenge Window</title>
-	<link  href="style.css" rel="stylesheet" type="text/css">
+	<style>
+		#text-challenge {
+		  background: white;
+		  width: 100%;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  box-sizing: border-box;
+		  font-family: sans-serif;
+		  font-size: 5vw;
+		  font-weight: bold;
+		  text-align: center;
+		}
+	</style>
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="text-challenge.js"></script>
 </head>
-<body>
-	<div id="text-challenge">
+<body id="text-challenge">
+	<div>
 		<p>Type in the characters correctly.</p>
 		<p id="random-string"></p>
 		<input type="text" name="challenge-input" id="challenge-input">

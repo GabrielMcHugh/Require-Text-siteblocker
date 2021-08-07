@@ -15,11 +15,9 @@
         "https://www.facebook.com/*",
         "https://www.netflix.com/*"
       ],
-      "css": [
-        "css/style.css"
-      ],
       "js": [
-        "text-challenge-injector.js",
+        "node_modules/jquery/dist/jquery.min.js",
+        "iFrameCreator.js"
       ]
     }
   ],
